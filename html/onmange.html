@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="../css/robi.css" />
+    <link rel="stylesheet" href="../css/robi.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
@@ -20,21 +20,21 @@
 
 <header>
 
-    <!------------Liens logo---------->
+    <!--  Liens logo  -->
 
     <div id="hautDePage">
         <div id="liens" class="ouvreliens">
             <ul>
                 <li>
-                    <a href="mailto:borisandrieu87@gmail.com" target="_blank"><img id="gm" src="../img/gmail.png" /></a>
+                    <a href="mailto:borisandrieu87@gmail.com" target="_blank"><img id="gm" src="../img/gmail.png" alt="logogmail"></a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/boris-andrieu-43a0081b4/" target="_blank"><img id="link"
-                            src="../img/linked.png" /></a>
+                            src="../img/linked.png" alt="logolinkedin"></a>
                 </li>
 
                 <li>
-                    <a href="https://github.com/Bozy87" target="_blank"><img id="git" src="../img/github.png" /></a>
+                    <a href="https://github.com/Bozy87" target="_blank"><img id="git" src="../img/github.png" alt="logogithub"></a>
                    
                 </li>
 
@@ -44,16 +44,16 @@
 
         <div id="logo">
 
-            <img src="../img/AB.2.png" />
+            <img src="../img/AB.2.png" alt="logoperso">
 
 
 
             <h1>Portfolio de Robi</h1>
         </div>
     </div>
-    <!------------ MENUS NAV --------->
+    <!--  MENUS NAV  -->
     <div id="nav" class="hamburger-menu">
-        <input id="menu__toggle" type="checkbox" />
+        <input id="menu__toggle" type="checkbox">
         <label class="menu__btn" for="menu__toggle">
             <span></span>
         </label>
@@ -72,27 +72,27 @@
 
 
 <body>
-    <!-------- BODY ------------------->
+    <!--  BODY CONTENU  -->
 
     <div id="presentation">
         <br>
-        <ol>
+        
             <h2 id="slt">Choses et autres.</h2>
             <br>
-            <img src="../img/yamini.jpg">
+            <img src="../img/yamini.jpg" alt="photomontage">
            
                 <h3>Avant d'entamer un cursus universitaire :</h3>
                 <p>J'ai essayé de pousser un peu plus loin le HTML/CSS, et de comprendre la logique JAVASCRIPT; ce qui,
                     issu d'un parcours plutôt littéraire, n'est pas une mince affaire, mais ça progresse...
                 </p>
                 <!---------------TABLEAU ASTROLOGIE -------------------->
-<li>
+
                 <h4> Petit tableau astrologique :</h4>
                 <div id="signe" class="">
                     <div id="cadre" class="container-md">
 
                         <!------- ENTETE --------->
-                        <legend id="legendastro">Astrologie</legend>
+                        <div id="legendastro">Astrologie</div>
                         <div id="tout" class="row">
 
                             <!---------------------->
@@ -101,21 +101,21 @@
                                 <div id="prenom">
                                     <label class="comuser"><u>Entrez votre prénom :</u></label><br>
                                     <input id="inputprenom" class="datein" value="" type="text"
-                                        placeholder="Saisir un Prénom" />
+                                        placeholder="Saisir un Prénom">
                                     <span class="info"></span>
                                 </div><br />
 
 
                                 <div id="date">
-                                    <label class="comuser"><u>Entrez votre date de naissance :</u></label><br />
+                                    <label class="comuser"><u>Entrez votre date de naissance :</u></label><br>
                                     <label class="cjour" for="jour">Jour</label><br>
                                     <input id="jour" class="datein" name="jour" value="" type="number"
                                         placeholder="Saisir un chiffre" />
-                                    <span class="info"></span><br />
+                                    <span class="info"></span><br>
 
                                     <label class="cmois">Mois</label><br>
                                     <select class="datein" id="mois" name="month" required="required">
-                                        <option id="mois" value="x">Choisissez un mois</option>
+                                        <option  value="x">Choisissez un mois</option>
                                         <option value="1">Janvier</option>
                                         <option value="2">Février</option>
                                         <option value="3">Mars</option>
@@ -128,11 +128,11 @@
                                         <option value="10">Octobre</option>
                                         <option value="11">Novembre</option>
                                         <option value="12">Décembre</option>
-                                    </select><br />
+                                    </select><br>
 
-                                    <label>Année (entre 1930 et 2022)</label><br />
+                                    <label>Année (entre 1930 et 2022)</label><br>
                                     <input id="annee" class="datein" value="" type="number"
-                                        placeholder="Saisir un chiffre" />
+                                        placeholder="Saisir un chiffre">
                                 </div>
 
                             </div>
@@ -157,7 +157,7 @@
                                         <label class="comuser"><u>Votre signe astrologique est :</u></label><br>
                                         <b>
                                             <span id="signe1" value="" class="comuser2" type="text"
-                                                name="sign"></span></b><br />
+                                                name="sign"></span><b><br>
                                     </div>
                                     <div class="label2">
                                         <label class="comuser"><u>Signe chinois :</u></label><br>
@@ -177,7 +177,7 @@
 
 
     
-    </li>
+    
  
 
 
@@ -186,7 +186,7 @@
 
     <!----    CALCULETTE        ----->
 
-    <li>
+    
         <h4>Calculette :</h4>
         <br>
         <div id="calc">
@@ -202,10 +202,10 @@
 
                     <div id="bloc0">
 
-                        <input id="AC" class="btnC op" type="button" value="AC" onclick="clearDisplay()" />
+                        <input id="AC" class="btnC op" type="button" value="AC" onclick="clearDisplay()">
 
-                        <input id="0" class="btnC" type="button" value="0" onclick="pushSign(0)" />
-                        <input id="." class="btnC op" type="button" value="." onclick="pushSign(`.`)" />
+                        <input id="0" class="btnC" type="button" value="0" onclick="pushSign(0)">
+                        <input id="." class="btnC op" type="button" value="." onclick="pushSign(`.`)">
                     </div>
 
                     <div id="bloc1">
@@ -248,10 +248,10 @@
             </div>
 
         </div>
-    </li>
+    
 
     <!------------- PRISE DE CONTACT ---------------->
-    <li>
+   
         <h4>Inscription avec formulaire (pas abouti) :</h4>
 
         <br>
@@ -294,7 +294,7 @@
                                 <p class="quand ate">
                                     Semaines, week-ends, jours fériés, <br>sans boire et sans manger..
                                 </p>
-                                <p id="reponse" class="dispo ate">
+                                <p id="reponseembauche" class="dispo ate">
                                     ¡ Plus que <span id="nbrTel" class="nbr" value="" type="texte">3</span> places
                                     disponible !
 
@@ -402,8 +402,7 @@
                             </div>
 
                         </div>
-    </li>
-    </ol>
+   
     <!------------------------------------------>
 
     </div>
@@ -411,15 +410,11 @@
     </div>
 
 
-
+ </div>
 
     </fieldset>
-    <div id="retour">
 
-
-
-    </div>
-    </div>
+   
 </div>
 
     <!------- FOOTER ------->
