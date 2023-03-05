@@ -23,8 +23,39 @@ body {
     font-family : 'Lucida Sans', 'Lucida Sans', sans-serif;
     text-align : center;
     font-weight:bold;
-    padding-top: 35px;
+    padding-top: 100px;
     border-bottom: 3px solid grey;
+    }
+    p::first-letter {
+        font-size: 3rem;
+        letter-spacing: 8px;
+        font-weight: bold;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: rgba(43, 57, 63, 0.161) 3px 0px 0px, rgba(107, 128, 137, 0.337) 2.83487px 0.981584px 0px;
+    }
+    #moncv{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: rgba(43, 57, 63, 0.161) 3px 0px 0px, rgba(107, 128, 137, 0.337) 2.83487px 0.981584px 0px;
+        font-size: 1.8rem;
+    }
+    .size{
+        font-size: 2rem;
+    }
+    a[href="#haut"]{
+        border:  2px solid;
+        color: red;
+        font-size: 60px;   
+        position:fixed;
+        top: 75%;
+        left: 93%;   
+        text-decoration: none;    
+        padding-right: 3px;
+        border-radius: 12px;
+        background-color: gold; 
+        opacity: .5;
+     z-index: 10;
+       
+    
     }
     #laotseu {
     border-bottom : 3px solid black;
@@ -88,6 +119,7 @@ body {
     .liensite:hover {
     color : black;
     background-color : rgb(255, 255, 255, 0.907);
+   
     }
     .hyperlien {
     color : rgb(233, 154, 45);
@@ -96,6 +128,8 @@ body {
     color : black;
     background-color : rgb(245, 245, 245, 0.489);
     font-style : oblique;
+    padding: 10px;
+    border-radius: 10px;
     }
     /*  RESPONSIVE  */
     @media screen and (min-width: 770px) {
@@ -276,7 +310,7 @@ body {
     box-shadow : -3px -4px 2px -1px rgb(246, 246, 246, 0.8), 4px 4px 6px 0 rgb(255, 255, 255) inset;
     }
     #clicvalid {
-    padding-top : 40%;
+    padding-top : 30%;
     height : 15em;
     display : flex;
     justify-content : center;
@@ -604,7 +638,7 @@ body {
     }
     .titre {
     background-color : rgb(240, 43, 221, 0.5);
-    background : linear-gradient(to right, #eedd44, #ff6b08, #cf23cf, #005900);
+   
     margin-left : -10%;
     width : 70%;
     background-color : rgb(4, 4, 4, 0.1);
@@ -614,7 +648,7 @@ body {
     letter-spacing : 6px;
     padding-top : 10px;
     border-bottom : 1px solid black;
-    transform : rotateY(40deg);
+    transform : rotateY(30deg);
     display : inline;
     }
     .dispo {
