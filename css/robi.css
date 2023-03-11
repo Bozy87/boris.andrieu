@@ -111,13 +111,14 @@ body {
     }
     .liensite {
     color : rgb(233, 154, 45);
+    text-shadow: -1px 0 white, 0 2px white;
     letter-spacing : 5px;
     font-size : 1.3em;
     font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border : rgb(255, 255, 255, 0.276) solid 3px;
-    background-color : rgb(255, 255, 255, 0.383);
-    padding : 5px 20px 5px 40px;
-    border-radius : 0% 40% 0% 40%;
+   
+    background-color : rgba(255, 255, 255, 0.194);
+    padding : 0px 2px 0px 2px;
+    border-radius : 40%;
     }
     .liensite:hover {
     color : black;
