@@ -4,9 +4,10 @@
 
 header{
     position: fixed;
+    
     width: 100%;
 z-index: 10;
- 
+
 }
 
 #liens {
@@ -28,12 +29,12 @@ list-style: none;
     width : 5vw;
     height : 8vh;
     border-radius : 30%;
-    mix-blend-mode:hard-light;
+    mix-blend-mode:luminosity;
     filter: grayscale(200%);
-    
+    z-index: 10;
     }
     #liens ul li:hover {
-        transform : scale(2.5);
+        transform : scale(2);
         margin-top: 25px;
         }
 
@@ -80,7 +81,25 @@ list-style: none;
              #qui0, #quoi0{
                 background-color: red;
              }
-                @media screen and (max-width: 1136px) {
+
+             @media only screen and (max-width: 1136px) and (min-width: 600px)  {
+                #menus{
+                    display : flex;
+                    position: absolute;
+                    top: 0%;
+                    margin-left: 65%;
+                    
+                    font-size: 2em;
+                }
+             #menus li  {
+                margin-left: 10px;
+                margin-right: 15px;
+
+             }
+            }
+
+
+                @media screen and (max-width: 600px) {
                   header{
                     margin-top: 0%;
 
@@ -104,7 +123,7 @@ list-style: none;
                         display : flex;
                         position: absolute;
                         top: 0%;
-                        margin-left: 50%;
+                        margin-left: 48%;
                         
                         font-size: 2em;
                     }
@@ -118,11 +137,11 @@ list-style: none;
                     width: auto;
                 }
             }
-
+        
     /*----    PARTIE 1 ----------*/
 
    
-     #slt{
+     .slt{
         text-align: center;
         padding: 5% 0% 5% 0%;
         color: rgb(255, 255, 255);
