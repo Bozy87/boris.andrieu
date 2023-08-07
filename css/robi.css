@@ -75,6 +75,9 @@ list-style: none;
                 border-bottom-left-radius: 30px;
              }
                 @media screen and (max-width: 1136px) {
+                    img{
+                        width: auto;
+                    }
                     #presentation{
                         padding-top: 20%;
                     }
