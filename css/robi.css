@@ -1,7 +1,9 @@
 
 
 /*----  NAVIGATION  -------------*/
-
+body{
+    width: 100%;
+}
 header{
     position: fixed;
     width: 100%;
@@ -73,27 +75,37 @@ list-style: none;
                 border-bottom-left-radius: 30px;
              }
                 @media screen and (max-width: 1136px) {
-                    #menus{
-                 display: grid;  
-                 margin-left: 18%;   
+                    #presentation{
+                        padding-top: 20%;
                     }
+                    #liens{
+                        height: 10vh;
+                        width: 70vw;
+                    }
+                    #liens ul img{
+                        height: 10vh;
+                        width: 10vh;
+                    }
+                    #liens ul li:hover{
+                        transform: none;
+                    }
+                    #menus{
+                        
+                        position: absolute;
+                        top: 0px;
+                        left: 60%;  
+                    }
+                 
                     button{
-                        width: 20vw;
+                        width: 30vw;
+                        margin-left: 0%;
                     }
                 
                  #m1, #m2{
-                    width: 10vw;
+                    width: 15vw;
                     height: 15vh;
                  } 
-                 #m1{
-                    border-top-left-radius: 30px;
-                    border-bottom-right-radius: 0px;
-                 }
-                 #m2{
-                    border-top-left-radius: 30px;
-                    border-bottom-left-radius: 30px;
-                    border-bottom-right-radius: 0px;
-                 }
+               
                  #qui0, #quoi0{
                     writing-mode: vertical-rl;
                     text-orientation: upright;
