@@ -38,3 +38,5 @@ AOS.init({
     return window.innerWidth < minWidth;
   }
 });
+
+AOS.init();
