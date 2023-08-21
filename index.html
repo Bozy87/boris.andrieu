@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site internet de boris andrieu, webmaster de limoges. Compétences de Boris ANDRIEU en création de site, développement web et référencement SEO.">
+    <meta name="author" content="Boris Andrieu">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/robi.css">
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
     <style>
         @import url('https://fonts.cdnfonts.com/css/ds-marker-felt');
     </style>
+   <link rel="icon"  href="./img/PWB.png" />
     <!--   FONT  ---->
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <!---  BOOTSTRAP -->
@@ -20,8 +23,9 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
     <!------          --------->
-    <script src="../js/mange copy.js" async=""></script>
-    <title>Boris ANDRIEU</title>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/mange.js" async=""></script>
+    <title>Boris ANDRIEU. Site internet de boris andrieu, webmaster de limoges. </title>
 </head>
 
 <header>
@@ -32,7 +36,7 @@
         <div id="liens" class="ouvreliens">
             <ul>
                 <li>
-                    <a href="https://drive.google.com/file/d/16uKn5jHXmWv_PNHlW3ZtxRNuPSXleE-I/view?usp=sharing"
+                    <a href="https://drive.google.com/file/d/1Mw2mvALvteLtzEYwnhuUWicCjzTNj66u/view?usp=sharing"
                         target="_blank"><img id="gm" src="./img/cv.png" alt="liengmail"></a>
                 </li>
                 <li>
@@ -49,17 +53,14 @@
             </ul>
         </div>
 
-
-
     </div>
     <!--  MENUS NAV  -->
     <div>
         <nav>
-            <ul id="menus" class="menu__box">
-                <li><button id="m1"><a class="menu__item menu1" href="#presentation"><span id="qui0">Qui </span><span
-                                id="qui">suis-je</span></a></button></li>
-                <li><button id="m2"><a class="menu__item menu2" href="#presentation2"><span id="quoi0">Quoi </span><span
-                                id="quoi">fais-je</span></a></button></li>
+            <ul id="menus">
+                <li><a id="m1" class=" menui" href="#presentation">Qui </a></li>
+
+                <li><a id="m2" class=" menui" href="#presentation2">Quoi</a></li>
 
 
 
@@ -71,6 +72,8 @@
 <!---   CONTENU    -->
 
 <body>
+    <h1 class="invis">boris andrieu limoges; Boris ANDRIEU; boris.andrieu</h1>
+<h2 class="invis">boris andrieu limoges; Boris ANDRIEU; boris.andrieu</h2>
     <div id="docentier">
         <div id="presentation" class="parapresentation">
             <a id="haut"></a>
@@ -78,29 +81,27 @@
 
 
             <div class="englobe">
-                <img id="moi" class="bordrond d-block mx-auto" src="./img/nameis.png" alt="photodemoi">
-                <h2 id="slt">Apprenti développeur web</h2>
+                <img id="moi" class="d-block mx-auto" src="./img/nameis.png" alt="photodemoi">
+                <h2 class="slt">Apprenti développeur web</h2>
 
             </div>
-            <div id="citation" data-aos="flip-up">
-                <p class="fontstyle"> “Mon apprentissage n’a d’autre fruit <br>que de me faire sentir combien il me
-                    reste à
-                    apprendre.”</p><br> Montaigne
+            <div class="citation" data-aos="flip-up">
+                <p class="fontstyle"> “Un voyage de mille lieues commence toujours par un premier pas.”</p><br> 
             </div>
             <div id="partie1" class="row" data-aos="fade-up">
-                <div id="col1 " class="col-12 col-sm-6">
-                    <div>
+                <div class="col-12 col-sm-6">
+                    <div id="col1">
                         <a id="tmoipeur"><br>2019, premiers pas dans le web...</a><br>
-                        <img id="moipeur" src="./img/moipeur.png">
+                        <img id="moipeur" class="bordrond" src="./img/moipeur.png" alt="peur dans le fire">
 
 
 
                     </div>
                 </div>
-                <div id="col2" class="col-12 col-sm-6 ">
-                    <div>
+                <div class="col-12 col-sm-6 ">
+                    <div id="col2">
                         <br><br><br>
-                        <img id="moimieux" src="./img/moimieux.png">
+                        <img id="moimieux" class="bordrond" src="./img/moimieux.png" alt="moins peur dans le fire">
                         <a id="tmoimieux"><br>2023, j'y vois beaucoup plus clair !</a>
                     </div>
                 </div>
@@ -108,7 +109,7 @@
             <div data-aos="fade-up">
                 <br>
                 <div id="p1">
-                    <p>Après beaucoup de temps passé à étudier, chercher, reproduire;<br> j'ai fini par acquérir
+                    <p>Après beaucoup de temps passé à <strong>étudier, chercher, reproduire;</strong><br> j'ai fini par acquérir
                         certains
                         automatismes.<br>
                         Je suis aujourd'hui prêt à <strong>proposer mes services </strong>et mettre à profit mes
@@ -116,23 +117,23 @@
                 </div>
                 <div id="carte1" class=" tile">
                     <div id="avant" class=" tile__face tile__face--front">
-                        <h2>Niveau correct en :</h2>
+                        <h2>Niveau correct :</h2>
                         * HTML/CSS<br>
                         * Wordpress<br>
                         * Gestion d'hébergement<br>
                         * Traitement texte/ image<br>
-                        * Référencement/ SEO<br>
+                        * Référencement/ SEO<br><br>
                     </div>
                     <div id="arriere" class=" tile__face tile__face--back">
-                        <h2>En perfectionnement :</h2><br><br>
+                        <h2>En progression :</h2><br><br>
                         * JAVASCRIPT<br>
                         * Commandes GIT<br>
-                        * Bases de données<br>
+                        * Bases de données<br><br>
                     </div>
                 </div><br>
                 <div id="carte2" class=" row">
                     <div id="avant2" class="col-sm-12">
-                        <h2>Niveau correct en :</h2>
+                        <h2>Niveau correct :</h2>
                         * HTML/CSS<br>
                         * Wordpress<br>
                         * Gestion d'hébergement<br>
@@ -140,10 +141,10 @@
                         * Référencement/ SEO<br>
                     </div><br>
                     <div id="arriere2" class="col-sm-12">
-                        <h2>En perfectionnement :</h2>
+                        <h2>En progresion :</h2>
                         * JAVASCRIPT<br>
                         * Commandes GIT<br>
-                        * Bases de données<br>
+                        * Bases de données<br><br>
                     </div>
                 </div><br>
             </div>
@@ -170,82 +171,135 @@
         <!--  PARTIE 2  -->
 
         <!--  BODY CONTENU  -->
-
+        <h1 class="invis">boris andrieu limoges; Boris ANDRIEU; boris.andrieu</h1>
+        <h2 class="invis">boris andrieu limoges; Boris ANDRIEU; boris.andrieu</h2>
         <div id="presentation2">
             <div data-aos="fade-up">
                 <br>
                 <div id="partie2" class="englobe">
-                    <img class="bordrond d-block mx-auto" src="../img/yamini.jpg" alt="photomontage">
-                    <h2 id="slt">Choses et autres.</h2>
+                    <img class="bordrond d-block mx-auto" src="./img/yamini.jpg" alt="photomontage">
+                    <h2 class="slt">Choses et autres.</h2>
                     <br>
 
                 </div>
             </div>
-             <div data-aos="fade-up">
-                 <p< J'aimerais aujourd'hui développer mon activité en tant qu'auto-entrepreneur.<br>
-                     En apprentissage permanent, je suis déja en mesure de vous fournir une visibilité web stable et moderne.<br>
-                     
-                     Si vous cherché un collaborateur investi, quelqu'un à qui confié toute ou certaines parties d'un 
-                     projet à mettre en oeuvre, je suis ouvert à toute proposition 
-                     et saurai où chercher les réponses aux problématiques que je n'ai pas encore exploré.<br>
-                     
-                 </p></div>      
-                     
-            <div data-aos="fade-up">
-                <p>Je vous invite à découvrir quelques-uns <br> de mes travaux : </p>
+                        <div class="citation" data-aos="flip-up">
+                 <p class="fontstyle"> J'aimerais aujourd'hui développer mon activité en <br><strong>auto-entrepreneur</strong>.
+                </div>
+                     <br>
+                      <div data-aos="fade-up">
+        
+<!--   Caroussel bootstrap -->
+                 <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row ">
+                         
+                        <div class="col-12 col-sm-6 ">
+                        <p id="t-gauche" >
+                 Même si en apprentissage permanent,<br> je suis déjà en mesure de vous fournir une 
+                 <strong>visibilité web </strong>stable et moderne.<br></p></div> 
+                   <div class="col-12 col-sm-6 ">
+                        <img id="phare" src="./img/visible.jpg" class="d-block w-50" alt="image d'un phare marin"></div>
+                      </div></div>
+                      <div class="carousel-item ">
+                       
+                        <p >
+                            Si vous cherché un collaborateur investi, quelqu'un à qui confier tout ou certaines parties d'un 
+                            projet à mettre en oeuvre,<br> 
+                            <br></p>
+                             <img id="child" src="./img/child.jpg" class="d-block" alt="enfant avec perforateur">
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row ">
+                         
+                            <div class="col-12 col-sm-6  ">
+                        <img id="aventure" src="./img/destination.jpg" class="d-block w-50" alt="aventurier dans la nature"></div>
+                        <div class="col-12 col-sm-6 ">
+                        <p id="t-droite">
+                            <strong>Autonome et persévérant, <br></strong>
+                            je saurai chercher et trouver des réponses efficaces face à de nouvelles problématiques. <br>
+                      
+                            
+                        </p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev btn-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next btn-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  </div>
+
+<!-- BBBBBBBB -->
+
+
+            <div id="travaux" data-aos="fade-up">
+                <p>Je vous invite à découvrir <strong>quelques-uns <br> de mes travaux : </strong><br>
+                    (Cliquez sur les images)</p>
                 <!--- Fusion interim  --->
                 <div class="row">
                     <div class="col-12 col-sm-4">
-                        <h4> Site vitrine pour une agence d'intérim</h4>
+                        <h4> Site vitrine Agence d'intérim</h4>
                         <br> <a href="https://www.fusion-interim.fr" target="_blank">
-                            <img class="prods" src="../img/fusion.png"> </a>
+                            <img class="prods" src="./img/fusion.png" alt="image site fusion interim"> </a>
                         <br>
-                    </div>
-                    <!----  BOOTSTRAP -->
-                    <div class="col-12 col-sm-4">
-                        <h4> Test du framework "Bootstrap"</h4>
-                        <br>
-                        <a href="../Bootstrap/index.html" target="_blank">
-                            <img class="prods" src="../img/whynot.png"> </a>
-
-                        <br>
-                    </div>
+                    </div> 
                     <!--- wordpress -->
                     <div class="col-12 col-sm-4">
                         <h4> Petit blog sous Wordpress</h4>
                         <br>
                         <a href="https://perenne.borisandrieu.go.yo.fr/" target="_blank">
-                            <img class="prods" src="../img/perenne.png"> </a> <br>
+                            <img class="prods" src="./img/perenne.png" alt="image site perenne.net"> </a> <br>
                         <br>
                     </div>
+                       <!----  RUDI -->
+                       <div class="col-12 col-sm-4">
+                        <h4> Site vitrine Artiste</h4>
+                        <br> <a href="https://lentrepot.github.io/RUDI/" target="_blank">
+                            <img class="prods" src="./img/rudi1.png" alt="image site rudi"> </a>
+
+                        <br>
+                    </div>
+                  
+                   
                 </div>
 
                 <div class="row">
-                    <!--- RUDI -->
-                    <div class="col-12 col-sm-4">
-                        <h4> Ebauche de site avec WIX</h4>
-                        <br>
-                        <a href="https://bozyboite.wixsite.com/outils-dev-web" target="_blank">
-                            <img class="prods" src="../img/wix.png"> </a>
-
-                        <br>
-                    </div>
-                    <!----  BOOTSTRAP -->
-                    <div class="col-12 col-sm-4">
-                        <h4> Site vitrine Artiste</h4>
-                        <br> <a href="https://lentrepot.github.io/RUDI/" target="_blank">
-                            <img class="prods" src="../img/rudi1.png"> </a>
-
-                        <br>
-                    </div>
-                    <!--- wordpress -->
+                      <!--- wordpress rapport -->
                     <div class="col-12 col-sm-4">
                         <h4> Rapport de stage</h4>
                         <br>
                         <a href="https://latelier.go.yo.fr/WP02/" target="_blank">
-                            <img class="prods" src="../img/rapport.png"> </a> <br>
+                            <img  class="prods" src="./img/rapport.png" alt="image site rapport de stage"> </a> <br>
                         <br>
                     </div>
+                    <!--- ODB WIX -->
+                    <div class="col-12 col-sm-4">
+                        <h4> Ebauche de site avec WIX</h4>
+                        <br>
+                        <a href="https://bozyboite.wixsite.com/outils-dev-web" target="_blank">
+                            <img class="prods" src="./img/wix.png" alt="image site wix"> </a>
+
+                        <br>
+                    </div>
+                 
+                  
+                    <!----  BOOTSTRAP -->
+                    <div class="col-12 col-sm-4">
+                        <h4> Test du framework "Bootstrap"</h4>
+                        <br>
+                        <a href="./Bootstrap/index.html" target="_blank">
+                            <img class="prods" src="./img/whynot.png" alt="image site bootstrap"> </a>
+
+                        <br>
+                    </div>
+                                        
                 </div>
             </div>
         </div>
@@ -256,7 +310,7 @@
 
 
 
-    
+
     <p class="fontstyle" data-aos="zoom-in" data-aos-duration="3000"> Quelque soit votre besoin, votre projet, n'hésitez
         pas à me contacter, <br>
         et nous trouverons ensemble les solutions les plus adaptées !</p>
@@ -271,10 +325,9 @@
         </ul>
 
     </footer>
-    <script>
-        AOS.init();
-
-    </script>
+ <script>
+  AOS.init();
+</script> 
 </body>
 
 </html>
