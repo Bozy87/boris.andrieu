@@ -399,4 +399,9 @@ footer {
   #travaux{
     margin-top: 10%;
   }
- 
+.gris{
+    color:black;
+ }
+ .carousel-control-next {
+    filter: invert(100%);
+    }
