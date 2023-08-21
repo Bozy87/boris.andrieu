@@ -374,15 +374,16 @@ footer {
    border-radius: 30px;
         width: 20%;
         margin: auto;
-         margin-top: -4%;
+         
        
     }
     #aventure{
-        width: 30%;
+        width: 50%;
         margin: auto;
         box-shadow:  5px 5px 25px 15px rgba(172, 169, 169, 0.908) ;
     }
  #phare{
+    width: 50%;
     margin-left: 20%;
     box-shadow:  5px 5px 25px 15px rgba(172, 169, 169, 0.908) ;
  }
@@ -396,12 +397,26 @@ footer {
     margin-left: -5%;
     margin-top: 10%;
   }
+  @media screen and (max-width: 770px) {
+    #t-gauche{
+       text-align: center;
+       margin-left: 10%;;
+    }
+    #phare{
+        margin: auto;
+    }
+    #t-droite{
+        text-align: center;
+        margin-left: 10%;
+    }
+    #child{
+        width: 50%;
+    }
+}
   #travaux{
     margin-top: 10%;
   }
-.gris{
-    color:black;
- }
+
  .carousel-control-next {
     filter: invert(100%);
     }
