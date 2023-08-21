@@ -1,11 +1,15 @@
 
 
 /*----  NAVIGATION  -------------*/
-
+body{
+    width: 100%;
+    
+}
 header{
     position: fixed;
-    
-    width: 100%;
+ 
+    justify-content: center;
+    width: 95%;
 z-index: 10;
 
 }
@@ -64,6 +68,7 @@ list-style: none;
             
                #menus li{
                 margin-top: -2%;
+             
                 width: 10vw;
                 
                }
@@ -102,7 +107,7 @@ list-style: none;
                 @media screen and (max-width: 600px) {
                   header{
                     margin-top: 0%;
-
+                   
                   }
                     #presentation{
                         padding-top: 10%;
@@ -123,12 +128,13 @@ list-style: none;
                         display : flex;
                         position: absolute;
                         top: 0%;
-                        margin-left: 48%;
-                        
+                        margin-left: 55%;
+                        margin-right: 2%;
                         font-size: 2em;
+                        
                     }
                  #menus li  {
-                    margin-left: 15px;
+                    margin-left: 10px;
                     margin-right: 15px;
 
                  }
@@ -144,7 +150,7 @@ list-style: none;
      .slt{
         text-align: center;
         padding: 5% 0% 5% 0%;
-        color: rgb(255, 255, 255);
+        color: #ffffff;
       font-size: 6vw;
       text-shadow: 3px 3px 3px black;
      }
@@ -352,9 +358,47 @@ footer {
         border-radius: 26%;
        margin: -5% auto auto 30%;
        width: 50%;
-       filter: drop-shadow( 0px 0px 50px  white );
+       filter: drop-shadow( 0px 0px 50px  rgba(220, 220, 220, 0.637) );
     }
 
   .invis{
     display: none;
+  }
+
+  .carousel{
+   
+   
+    box-shadow:  5px 5px 25px 15px rgba(172, 169, 169, 0.441) ;
+  }
+  .carous{
+     background-color: rgb(220, 220, 220);
+  }
+  #child{
+   border-radius: 30px;
+        width: 30%;
+        margin: auto;
+         margin-top: -4%;
+    }
+    #aventure{
+        width: 30%;
+        margin: auto;
+    }
+ #phare{
+    margin-left: 20%;;
+ }
+ #t-gauche{
+    text-align: right;
+    margin-right: -10%;
+    margin-top: 10%;
+ }
+  #t-droite{
+    text-align: left;
+    margin-left: -5%;
+    margin-top: 10%;
+  }
+  #travaux{
+    margin-top: 3%;
+  }
+  button.carousel{
+    color: black;
   }
