@@ -4,6 +4,7 @@
 body{
     width: 100%;
 padding: 3%;
+
 }
 header{
     position: fixed !important;
@@ -73,7 +74,7 @@ list-style: none;
                 }
             
                #menus li{
-                margin-top: -20%;
+                margin-top: -18%;
              
                 width: 10vw;
                 
