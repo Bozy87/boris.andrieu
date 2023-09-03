@@ -74,7 +74,7 @@ list-style: none;
             
                #menus li{
                 margin-top: -18%;
-             top: 0px;
+             
                 width: 10vw;
                 
                }
@@ -103,7 +103,7 @@ list-style: none;
              #menus li  {
                 margin-left: 10px;
                 margin-right: 15px;
-
+                margin-top: -15%;
              }
             }
 
@@ -131,7 +131,7 @@ list-style: none;
                     #menus{
                         display : flex;
                         position: fixed;
-                        top: 25px;
+                       
                         margin-left: 45%;
                         margin-right: 2%;
                         font-size: 1em;
@@ -140,7 +140,7 @@ list-style: none;
                  #menus li  {
                     margin-left: 10px;
                     margin-right: 15px;
-margin-top: -30px;
+                    margin-top: -43%;
                  }
                
                 img{
