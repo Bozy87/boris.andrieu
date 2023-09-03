@@ -37,10 +37,5 @@ tile.addEventListener("mouseleave", function () {
   tile.classList.toggle("is-flipped");
 });
 
-AOS.init({
-  disable: function() {
-    var minWidth = 800;
-    return window.innerWidth < minWidth;
-  }
-});
+
 
