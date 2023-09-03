@@ -108,7 +108,7 @@ list-style: none;
             }
 
 
-                @media screen and (max-width: 600px) {
+                @media screen and (max-width: 640px) {
                   header{
                     margin-top: 0%;
                    position: fixed !important;
@@ -131,15 +131,16 @@ list-style: none;
                     #menus{
                         display : flex;
                         position: fixed;
-                       margin-left: 55%;;
+                       margin-left: 45%;;
                   
                         font-size: 1em;
                         
                     }
                  #menus li  {
-                    margin: 3px;
+                    margin: 5px;
+                    margin-left: 20px;
                    
-                    margin-top: -30%;
+                    margin-top: -45%;
                  }
                
                 img{
