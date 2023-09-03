@@ -90,7 +90,7 @@ list-style: none;
                 border-bottom-left-radius: 10px;
              }
             
-/*--
+
              @media only screen and (max-width: 1136px) and (min-width: 940px)   {
                 #menus{
                     display : flex;
@@ -107,7 +107,7 @@ list-style: none;
              }
             }
 
-
+/*--
                 @media screen and (max-width: 930px) and (min-width: 640px) {
                  
                     #presentation{
@@ -227,7 +227,7 @@ and (max-device-width : 1124px){
         height: 6vh;
         width: 12vw;
     }
-} ---*/
+} 
     /*----    PARTIE 1 ----------*/
 
    
