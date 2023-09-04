@@ -4,7 +4,7 @@
 body{
     width: 100%;
 padding: 3%;
-
+padding-top: 5%;
 }
 header{
     position: fixed !important;
@@ -94,18 +94,23 @@ list-style: none;
 
 
                 @media screen and (max-width: 750px) and (min-width: 350px) {
-                 
+                    body{
+                        padding-top: 10%;
+                    }
                 
                     #menus{                      
-                       margin-left: 40%;             
+                       margin-left: 0%;             
                     }
                     #menus li{
                         margin-top: -4%;
+                        margin-right: 30%;
                     }
-                   
+                   #liens{
+                    width: 50vw;
+                   }
                     #liens ul img{
                         height: 6vh;
-                        width: 12vw;
+                        width: 10vw;
                         margin-left: 10px;
                     }
                     #liens ul li:hover {
