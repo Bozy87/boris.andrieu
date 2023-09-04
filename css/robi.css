@@ -54,9 +54,7 @@ list-style: none;
         
             #menus {
                 display : flex;
-                position: absolute;
-             
-                margin-left: 75%;
+            margin-left: 70%;
                 
                 
                 
@@ -74,8 +72,8 @@ list-style: none;
                 }
             
                #menus li{
-                margin-top: -18%;
-             
+                margin-right: 40%;
+             margin-top: -3%;
                 width: 10vw;
                 
                }
@@ -95,43 +93,27 @@ list-style: none;
      
 
 
-                @media screen and (max-width: 750px) and (min-width: 450px) {
+                @media screen and (max-width: 750px) and (min-width: 350px) {
                  
-                    #presentation{
-                        padding-top: 10%;
+                
+                    #menus{                      
+                       margin-left: 40%;             
                     }
-                    #liens{
-                        height: 6vh;
-                        width: 60vw;
+                    #menus li{
+                        margin-top: -4%;
                     }
+                   
                     #liens ul img{
                         height: 6vh;
                         width: 12vw;
+                        margin-left: 10px;
                     }
-                    #liens ul li:hover{
+                    #liens ul li:hover {
                         transform : none;
                         margin-top: 0px;
-                    }
-                    #menus{
-                        display : flex;
-                        position: fixed;
-                       margin-left: 55%;;
-                  
-                        font-size: 1em;
-                        
-                    }
-                 #menus li  {
-                  
-                    margin-right: 20px;
-                   
-                    margin-top: -30%;
-                 }
-               
-                img{
-                    width: auto;
-                }
+                        }
             }
-
+/*--
             @media screen and (max-device-width: 375px) {
                 #menus{
                     margin-top: 3%;
