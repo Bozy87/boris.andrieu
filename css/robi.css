@@ -492,4 +492,109 @@ footer {
     filter: invert(100%);
     }
 
+ /*---    FORMULAIRE ----*/
+
+ fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    
+  }
+  label{
+    margin-top: 2%;
+    font-size: 1em;
+  }
+  
+  input{
+    height: 30px;
+  }
+  button{
+    margin-top: 5%;
+   height: 50px;
+   font-size: 0.7em;
+   cursor: pointer;
+ }
  
+ #intro{
+   font-size: 0.6em;
+  
+   font-family: Serif; 
+   
+ }
+
+
+ .card-img-overlay{ 
+   
+   width: 40%;
+    background-color: #f9ee77d4;
+   
+     
+    visibility: hidden;
+ }
+
+ .card-text{
+
+     font-size: 1em;
+     font-weight: bold;
+     text-shadow: 1px 1px 1px white;;
+ }
+
+ #perenne:before .card-img-overlay{
+    left: -20%;
+ }
+#perenne:hover .card-img-overlay{
+    visibility: visible;
+  
+
+    transform: translateX(20%);
+    transition-duration: 0.5s;
+ }
+
+
+#rudi:hover .card-img-overlay{
+    visibility: visible;
+  
+    transform: translateX(20%) ;
+    transition-duration: 0.5s;
+    
+ }
+
+ #odw:before .card-img-overlay{
+    left: -20%;
+ }
+#odw:hover .card-img-overlay{
+    visibility: visible;
+  
+
+    transform: translateX(20%);
+    transition-duration: 0.5s;
+ }
+
+
+#odw:hover .card-img-overlay{
+    visibility: visible;
+  
+    transform: translateX(20%) ;
+    transition-duration: 0.5s;
+    
+ }
+
+ #btp:before .card-img-overlay{
+    left: -20%;
+ }
+#btp:hover .card-img-overlay{
+    visibility: visible;
+  
+
+    transform: translateX(20%);
+    transition-duration: 0.5s;
+ }
+
+
+#btp:hover .card-img-overlay{
+    visibility: visible;
+  
+    transform: translateX(20%) ;
+    transition-duration: 0.5s;
+    
+ }
